@@ -28,12 +28,6 @@ const projects = [
     image: 'https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   },
   {
-    id: 5,
-    title: 'Website Redesign',
-    category: 'Graphic Design',
-    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
     id: 6,
     title: 'Engagement Content Series',
     category: 'Content Creation',
