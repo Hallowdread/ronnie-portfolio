@@ -87,9 +87,6 @@ const Header: React.FC = () => {
               <a href="#" className="text-gray-600 hover:text-orange-500 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-orange-500 transition-colors">
-                <Twitter size={20} />
-              </a>
             </div>
           </div>
         </div>
