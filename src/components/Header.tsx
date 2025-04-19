@@ -47,7 +47,7 @@ const Header: React.FC = () => {
 
         {/* Social Icons */}
         <div className="hidden md:flex items-center space-x-4">
-          <a href="#" className={`hover:text-orange-500 transition-colors ${isScrolled ? 'text-gray-600' : 'text-white'}`}>
+          <a href="https://www.instagram.com/lifeof.nu?igsh=MXZiMXJoeXZsZ21rNg==" className={`hover:text-orange-500 transition-colors ${isScrolled ? 'text-gray-600' : 'text-white'}`}>
             <Instagram size={20} />
           </a>
           <a href="#" className={`hover:text-orange-500 transition-colors ${isScrolled ? 'text-gray-600' : 'text-white'}`}>
@@ -81,7 +81,7 @@ const Header: React.FC = () => {
               <a href="#contact" className="text-gray-800 hover:text-orange-500 py-2 transition-colors" onClick={() => setIsMenuOpen(false)}>Contact</a>
             </nav>
             <div className="flex items-center space-x-4 mt-4 pt-4 border-t border-gray-200">
-              <a href="#" className="text-gray-600 hover:text-orange-500 transition-colors">
+              <a href="https://www.instagram.com/lifeof.nu?igsh=MXZiMXJoeXZsZ21rNg==" className="text-gray-600 hover:text-orange-500 transition-colors">
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-gray-600 hover:text-orange-500 transition-colors">
