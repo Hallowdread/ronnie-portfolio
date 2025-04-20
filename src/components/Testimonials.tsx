@@ -4,12 +4,12 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: 'Sarah Johnson',
+    name: 'Otakuconnect ',
     role: 'Marketing Director',
-    company: 'TechGrowth Inc.',
-    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=600',
+    company: 'Otakuconnect ',
+    image: 'https://otakutv.co/assets/images/otaku-connect-logo.png',
     rating: 5,
-    quote: 'Chisanga transformed our social media presence completely. Her strategic approach and creative content increased our engagement by 150% in just three months.'
+    quote: 'Ronnie played a pivotal role in promoting Otaku Connect. Her natural talent for marketing and community engagement significantly boosted awareness of the event. She consistently went above and beyond, making a noticeable impact on our reach and visibility.'
   },
   {
     id: 2,
