@@ -7,7 +7,7 @@ const testimonials = [
     name: 'Otakuconnect ',
     role: 'Marketing Director',
     company: 'Otakuconnect ',
-    image: 'https://otakutv.co/assets/images/otaku-connect-logo.png',
+    image: 'https://otakutv.co/assets/oc-logo-dark.webp',
     rating: 5,
     quote: 'Ronnie played a pivotal role in promoting Otaku Connect. Her natural talent for marketing and community engagement significantly boosted awareness of the event. She consistently went above and beyond, making a noticeable impact on our reach and visibility.'
   },
