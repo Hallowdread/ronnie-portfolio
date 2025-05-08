@@ -1,15 +1,16 @@
-import React from 'react';
-import { ArrowDownCircle } from 'lucide-react';
+import type React from "react"
+import { ArrowDownCircle } from "lucide-react"
 
 const Hero: React.FC = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
       {/* Background Image with Overlay */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ 
-          backgroundImage: 'url(https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1600)',
-          backgroundPosition: 'center'
+        style={{
+          backgroundImage:
+            "url(https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1600)",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-orange-600/80 to-orange-800/80"></div>
@@ -27,14 +28,14 @@ const Hero: React.FC = () => {
           Transforming brands with creative strategies, compelling content, and eye-catching designs.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 opacity-0 animate-fadeInUp animation-delay-900">
-          <a 
-            href="#portfolio" 
+          <a
+            href="#portfolio"
             className="inline-block px-8 py-3 bg-white text-orange-600 font-medium rounded-full hover:bg-orange-50 transition-colors shadow-lg"
           >
             View My Work
           </a>
-          <a 
-            href="#contact" 
+          <a
+            href="#contact"
             className="inline-block px-8 py-3 bg-transparent border-2 border-white text-white font-medium rounded-full hover:bg-white/10 transition-colors"
           >
             Let's Connect
@@ -49,7 +50,7 @@ const Hero: React.FC = () => {
         </a>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

@@ -1,35 +1,38 @@
-import React from 'react';
-import { Star } from 'lucide-react';
+import type React from "react"
+import { Star } from "lucide-react"
 
 const testimonials = [
   {
     id: 1,
-    name: 'Otakuconnect ',
-    role: 'Marketing Director',
-    company: 'Otakuconnect ',
-    image: 'https://otakutv.co/assets/oc-logo-dark.webp',
+    name: "Otakuconnect ",
+    role: "Marketing Director",
+    company: "Otakuconnect ",
+    image: "https://otakutv.co/assets/oc-logo-dark.webp",
     rating: 5,
-    quote: 'Ronnie played a pivotal role in promoting Otaku Connect. Her natural talent for marketing and community engagement significantly boosted awareness of the event. She consistently went above and beyond, making a noticeable impact on our reach and visibility.'
+    quote:
+      "Ronnie played a pivotal role in promoting Otaku Connect. Her natural talent for marketing and community engagement significantly boosted awareness of the event. She consistently went above and beyond, making a noticeable impact on our reach and visibility.",
   },
   {
     id: 2,
-    name: 'Michael Chen',
-    role: 'Founder',
-    company: 'Artisan Café',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: "Michael Chen",
+    role: "Founder",
+    company: "Artisan Café",
+    image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
     rating: 5,
-    quote: 'Working with Chisanga was a pleasure. Her graphic design work for our brand refresh was exceptional, capturing exactly what we wanted to convey to our customers.'
+    quote:
+      "Working with Chisanga was a pleasure. Her graphic design work for our brand refresh was exceptional, capturing exactly what we wanted to convey to our customers.",
   },
   {
     id: 3,
-    name: 'Jessica Rivera',
-    role: 'CEO',
-    company: 'Rivera Boutique',
-    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: "Jessica Rivera",
+    role: "CEO",
+    company: "Rivera Boutique",
+    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600",
     rating: 5,
-    quote: 'Chisanga has an incredible talent for creating content that resonates with our audience. Our product launch campaign exceeded all expectations thanks to her creativity.'
-  }
-];
+    quote:
+      "Chisanga has an incredible talent for creating content that resonates with our audience. Our product launch campaign exceeded all expectations thanks to her creativity.",
+  },
+]
 
 const Testimonials: React.FC = () => {
   return (
@@ -48,15 +51,13 @@ const Testimonials: React.FC = () => {
             <div key={testimonial.id} className="bg-white p-8 rounded-lg shadow-md">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 rounded-full overflow-hidden mr-4">
-                  <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name} 
-                    className="object-cover w-full h-full"
-                  />
+                  <img src={testimonial.image} alt={testimonial.name} className="object-cover w-full h-full" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800">{testimonial.name}</h3>
-                  <p className="text-gray-600">{testimonial.role}, {testimonial.company}</p>
+                  <p className="text-gray-600">
+                    {testimonial.role}, {testimonial.company}
+                  </p>
                 </div>
               </div>
 
@@ -72,7 +73,7 @@ const Testimonials: React.FC = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Testimonials;
+export default Testimonials
